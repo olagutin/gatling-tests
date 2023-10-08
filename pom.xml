@@ -39,7 +39,7 @@
     <dependency>
       <groupId>ru.tinkoff</groupId>
       <artifactId>gatling-kafka-plugin_2.13</artifactId>
-      <version>0.11.0</version>
+      <version>0.12.0</version>
     </dependency>
     <dependency>
       <groupId>com.sksamuel.avro4s</groupId>
