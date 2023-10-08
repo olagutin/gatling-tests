@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-streams-scala_2.13</artifactId>
-      <version>3.6.0</version>
+      <version>7.5.1-ce</version>
     </dependency>
     <dependency>
       <groupId>org.apache.kafka</groupId>
