@@ -9,5 +9,8 @@
         <module name="gatling-maven-plugin-demo-scala" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gatling-tests" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

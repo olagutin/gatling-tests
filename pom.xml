@@ -15,7 +15,7 @@
     <gatling-maven-plugin.version>4.6.0</gatling-maven-plugin.version>
     <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
     <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
-    <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
     <scala-maven-plugin.version>4.8.1</scala-maven-plugin.version>
   </properties>
 
@@ -29,17 +29,17 @@
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-streams-scala_2.13</artifactId>
-      <version>3.6.0</version>
+      <version>7.5.1-ce</version>
     </dependency>
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
-      <version>3.6.0</version>
+      <version>7.5.1-ce</version>
     </dependency>
     <dependency>
       <groupId>ru.tinkoff</groupId>
       <artifactId>gatling-kafka-plugin_2.13</artifactId>
-      <version>0.11.0</version>
+      <version>0.12.0</version>
     </dependency>
     <dependency>
       <groupId>com.sksamuel.avro4s</groupId>
