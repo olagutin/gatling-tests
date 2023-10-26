@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.likesapp;
+package likesapp;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
@@ -56,6 +56,6 @@ public class RestLoadTesting_1k extends Simulation {
                   .body(StringBody("{\"userId\":null,\"nickName\":\"jdoe\",\"likes\":1}")));
 
   {
-    setUp(scn.injectOpen(constantUsersPerSec(250).during(2)).protocols(httpProtocol));
+    setUp(scn.injectOpen(constantUsersPerSec(100).during(10)).protocols(httpProtocol));
   }
 }

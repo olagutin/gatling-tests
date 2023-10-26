@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.likesapp;
+package likesapp;
 
 import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;

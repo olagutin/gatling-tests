@@ -34,6 +34,6 @@ class KafkaLoadTesting_1k extends Simulation {
 
   setUp(
     scn
-      .inject(constantUsersPerSec(250) during(2.seconds)))
+      .inject(constantUsersPerSec(500) during(2.seconds)))
     .protocols(kafkaConf)
 }
