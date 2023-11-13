@@ -44,7 +44,7 @@
     <dependency>
       <groupId>com.sksamuel.avro4s</groupId>
       <artifactId>avro4s-core_3</artifactId>
-      <version>5.0.6</version>
+      <version>5.0.7</version>
     </dependency>
   </dependencies>
 
